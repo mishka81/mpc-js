@@ -1,0 +1,22 @@
+{ 
+	"name" : "mpc-js",
+	"version" : "0.0.1",
+	"description" : "Music Player Daemon client built with NodeJS and ClosureJS",
+	"repository" : "git@github.com:mishka81/mpc-js.git",
+	"author" : "Mickaël Salmon <mickael@humbkr.com>",
+	"main" : "index",
+	"dependencies" : {
+		"connect" : ">= 2.0.0",
+		"zazloptimizer" : ">= 0.5.2",
+		"ws" : ">= 0.4"
+	},
+	"config" : {
+		"port" : 8080,
+		"mpdport" : 6600
+	},
+	"engine": {
+    	"node": ">=0.8"
+	},
+    "readme": "",
+    "readmeFilename": "README.md",
+}
